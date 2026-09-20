@@ -14,7 +14,7 @@ Two .sln files are included:
 - **Rose**, the main part of this project which generates the base .exe file
 - **rosencryptor**, a post-processing .exe that allowed me to inject inline x64 assembly (since MSVC does not support it) and applies static encryption to strings and code sections.
 
-Build Rose first, then target the built .exe with rosencryptor to apply the necessary effects
+Build Rose first, then target the built .exe with rosencryptor (by editing the source code to the correct path of Rose.exe) to apply the necessary effects
 
 
 ## Credits
